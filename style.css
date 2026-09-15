@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  background: #f4f7f9;
+  color: #263238;
+}
+
+h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 28px;
+  margin-top: 30px;
+}
+
+h3 {
+  font-size: 22px;
+  margin-top: 25px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+button {
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 6px 4px 6px 0;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#startButton {
+  font-size: 20px;
+  padding: 15px 25px;
+  margin-top: 15px;
+}
+
+#exploration {
+  margin-top: 30px;
+  padding: 25px;
+  background: white;
+  border-radius: 12px;
+}
+
+/* Sleep graph */
+
+#sleepChart {
+  display: flex;
+  align-items: flex-end;
+  gap: 12px;
+  height: 280px;
+  margin-top: 30px;
+  padding: 20px;
+  background: #f8fafb;
+  border-radius: 10px;
+}
+
+.sleep-column {
+  text-align: center;
+  font-size: 14px;
+}
+
+.sleep-bar {
+  width: 45px;
+  background: steelblue;
+  color: white;
+  padding-top: 6px;
+  box-sizing: border-box;
+  border-radius: 6px 6px 0 0;
+}
+
+/* Stressors timeline */
+
+#sleepChart.stressor-view {
+  display: block;
+  height: auto;
+}
+
+.stressor-card {
+  background: white;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 8px;
+  border-left: 5px solid steelblue;
+}
+
+.stressor-card p {
+  margin-bottom: 0;
+}
+
+/* Pattern section */
+
+#patternSection {
+  margin-top: 30px;
+  padding: 20px;
+  background: #eef3f6;
+  border-radius: 10px;
+}
